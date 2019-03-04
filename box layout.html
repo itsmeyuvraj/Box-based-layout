@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Box Layout  (Dairy layout) </title>
+
+	<meta charset="UTF-8">
+	<style>
+
+   body{
+
+   	width:900px;
+   	margin: 0 auto;
+   }
+
+   article{
+
+   	border: 2px solid red;
+   	padding: 10px 10px 10px 40px;
+   	font-size: 25px;
+   	text-align: justify;
+   	background-color: goldenrod;
+   }
+
+   .my-article-date{
+
+
+
+   	position: relative;
+   	left:-15px;
+   	display: inline-block;
+   	padding: 15px;
+   /*	background-color: red;*/
+   	color: orange; /*font color*/
+   	text-align: center;
+   	border: 2px solid blue;
+   }
+
+   .my-article-date > span{
+   	display: block;
+   
+   }
+
+   .my-article-heading{
+
+   	position: relative;
+   	left: 400px;
+   	display: inline-block;
+   	padding: 15px;
+   	font-size: 40px;
+   	color:blue;
+   	text-align: center;
+   	font-family: Cambria;
+   }
+
+</style>
+   
+</head>
+<body>
+
+	<article>
+		
+<span class="my-article-date" >
+	<span style="color: blue"> FEB </span>
+	<span style="color:blue"> 22 </span>
+</span>
+<span class="my-article-heading" >
+	<span> My personal dairy </span>
+</span>
+<div>
+
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+</div>
+	</article>
+
+</body>
+</html>
